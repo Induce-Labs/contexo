@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Environment and secrets — never commit real values
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs and coverage
+*.log
+coverage/
+htmlcov/
+.coverage
+
+# Extension packaging
+*.crx
+*.pem
+
+# Neon local config secrets if generated
+neon.ts.local
+.neon

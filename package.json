@@ -1,0 +1,25 @@
+{
+  "name": "contexo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Contexo monorepo — web dashboard, FastAPI backend, and browser extension",
+  "workspaces": [
+    "apps/web",
+    "apps/extension",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w web",
+    "dev:extension": "npm run dev -w @contexo/extension",
+    "build:web": "npm run build -w web",
+    "build:extension": "npm run build -w @contexo/extension",
+    "lint:web": "npm run lint -w web"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@neon/config": "^1.14.8",
+    "@neon/env": "^2.1.11"
+  }
+}

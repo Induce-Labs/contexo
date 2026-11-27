@@ -1,0 +1,15 @@
+---
+description: Require docs updates with every feature implementation
+alwaysApply: true
+---
+
+# Documentation updates
+
+Whenever a feature is implemented or changed:
+
+- Create or update a feature doc under `docs/features/`
+- Update affected architecture, setup, schema, or API documentation
+- Update the root README links when a new top-level doc is added
+- Treat documentation as part of feature completion, not optional cleanup
+
+Follow the structure described in `docs/README.md` and the project Documentation rule.
